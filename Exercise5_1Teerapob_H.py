@@ -1,5 +1,5 @@
-a = 99
-b = 19
+a = 100
+b = 20
 print(a,"+",b," = ",a+b)
 print(a,"-",b," = ",a-b)
 print(a,"*",b," = ",a*b)
