@@ -1,6 +1,5 @@
 menuList = []
 priceList = []
-
 def showBill():
     print("My Food")
     totalprice = 0
@@ -8,7 +7,6 @@ def showBill():
         print(menuList[number],priceList[number])
         totalprice += int(priceList[number])
     print("Total : ",totalprice)
-
 while True:
     menuName = input("Enter your menu : ")
     if(menuName.lower() == "exit"):
@@ -17,7 +15,5 @@ while True:
         menuPrice = input("Price : ")
         menuList.append(menuName)
         priceList.append(int(menuPrice))
-
-
 showBill()
 
